@@ -4,27 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="" />
+    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/MySelfPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/SelfPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/SignInPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/TopNavigationBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HSu3YqOt4x0lgUe4ZPwmzrRb56" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="postgresql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bookit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/bookit/pages" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\DL\IdeaProjects\EU8-BookIT-Omer_Prac\src\test\java\com\bookit\pages" />
       <recent name="C:\Users\DL\IdeaProjects\EU8-BookIT-Omer_Prac\src\test\java\com\bookit" />
       <recent name="C:\Users\DL\IdeaProjects\EU8-BookIT-Omer_Prac\src\test\resources" />
       <recent name="C:\Users\DL\IdeaProjects\EU8-BookIT-Omer_Prac" />
@@ -32,6 +61,28 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.bookit.runners" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="EU8-BookIT-Omer_Prac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bookit.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.bookit.runners" />
+      <option name="MAIN_CLASS_NAME" value="com.bookit.runners.CukesRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CukesRunner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -41,11 +92,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668290610799</updated>
-      <workItem from="1668290612303" duration="886000" />
+      <workItem from="1668290612303" duration="8644000" />
+      <workItem from="1668419960779" duration="1844000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
