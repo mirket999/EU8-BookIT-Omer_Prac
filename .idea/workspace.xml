@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/MySelfPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/SelfPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/SignInPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/pages/TopNavigationBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" afterDir="false" />
+    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="Added some new dependencies and java files">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,10 +55,51 @@
       <recent name="C:\Users\DL\IdeaProjects\EU8-BookIT-Omer_Prac" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bookit.step_definitions" />
       <recent name="com.bookit.runners" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration name="Scenario: Create a student teacher and verify status code is 201" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" />
+      <option name="GLUE" value="com.bookit.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU8-BookIT-Omer_Prac" />
+      <option name="NAME_FILTER" value="^Create a student teacher and verify status code is 201$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Create a student teacher and verify status code is 201$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Create a student teacher and verify status code is 201" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: verify information about logged user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/user.feature" />
+      <option name="GLUE" value="com.bookit.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU8-BookIT-Omer_Prac" />
+      <option name="NAME_FILTER" value="^verify information about logged user$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^verify information about logged user$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: verify information about logged user" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU8-BookIT-Omer_Prac" />
       <extension name="coverage">
@@ -81,6 +118,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Create a student teacher and verify status code is 201" />
+        <item itemvalue="Cucumber Java.Scenario: verify information about logged user" />
       </list>
     </recent_temporary>
   </component>
@@ -93,8 +132,18 @@
       <option name="presentableId" value="Default" />
       <updated>1668290610799</updated>
       <workItem from="1668290612303" duration="8644000" />
-      <workItem from="1668419960779" duration="1844000" />
+      <workItem from="1668419960779" duration="11079000" />
+      <workItem from="1668781455038" duration="3169000" />
+      <workItem from="1669035783852" duration="9479000" />
     </task>
+    <task id="LOCAL-00001" summary="Added some new dependencies and java files">
+      <created>1668422366387</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668422366387</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,5 +159,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added some new dependencies and java files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added some new dependencies and java files" />
   </component>
 </project>
