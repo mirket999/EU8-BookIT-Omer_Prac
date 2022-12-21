@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="Added some new dependencies and java files">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="484f17f5-b8ac-4770-bef2-d0c4045500ea" name="Changes" comment="Practiced POST and DELETE a student using gherkin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/ApiStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/step_definitions/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/BookItApiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bookit/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/user.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/user.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: get name,role,batch number, campus, team name from api for one student" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/createStudent.feature" />
+      <option name="GLUE" value="com.bookit.step_definitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="EU8-BookIT-Omer_Prac" />
+      <option name="NAME_FILTER" value="^get name\,role\,batch number\, campus\, team name from api for one student$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^get name\,role\,batch number\, campus\, team name from api for one student$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: get name,role,batch number, campus, team name from api for one student" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: verify information about logged user" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/user.feature" />
@@ -118,6 +138,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: get name,role,batch number, campus, team name from api for one student" />
         <item itemvalue="Cucumber Java.Scenario: Create a student teacher and verify status code is 201" />
         <item itemvalue="Cucumber Java.Scenario: verify information about logged user" />
       </list>
@@ -134,7 +155,14 @@
       <workItem from="1668290612303" duration="8644000" />
       <workItem from="1668419960779" duration="11079000" />
       <workItem from="1668781455038" duration="3169000" />
-      <workItem from="1669035783852" duration="9479000" />
+      <workItem from="1669035783852" duration="10635000" />
+      <workItem from="1669279251445" duration="1694000" />
+      <workItem from="1669373838138" duration="1902000" />
+      <workItem from="1669554566976" duration="820000" />
+      <workItem from="1669555446137" duration="5598000" />
+      <workItem from="1669641911318" duration="938000" />
+      <workItem from="1670489678585" duration="3761000" />
+      <workItem from="1671613147945" duration="7216000" />
     </task>
     <task id="LOCAL-00001" summary="Added some new dependencies and java files">
       <created>1668422366387</created>
@@ -143,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668422366387</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Practiced POST and DELETE a student using gherkin">
+      <created>1669068947689</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669068947689</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +197,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added some new dependencies and java files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some new dependencies and java files" />
+    <MESSAGE value="Practiced POST and DELETE a student using gherkin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practiced POST and DELETE a student using gherkin" />
   </component>
 </project>

@@ -2,6 +2,7 @@ package com.bookit.utilities;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
+import org.junit.Assert;
 
 import static io.restassured.RestAssured.given;
 
@@ -19,6 +20,7 @@ public class BookItApiUtil {
                                 "password", password)
                         .when()
                         .get(ConfigurationReader.get("base_url") + "/sign");
+        Assert.assertEquals(200, response.statusCode());
         String token= response.path("accessToken");
         String finalTOken = "Bearer "+ token;
         return finalTOken;

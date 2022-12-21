@@ -37,6 +37,7 @@ public class Driver {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver());
+                    driverPool.get().manage().window().maximize();
                     break;
                 case "chrome-headless":
                     WebDriverManager.chromedriver().setup();
